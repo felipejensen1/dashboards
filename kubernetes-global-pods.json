@@ -17,7 +17,7 @@
   "gnetId": 10585,
   "graphTooltip": 0,
   "id": 200,
-  "iteration": 1586457288303,
+  "iteration": 1586807387231,
   "links": [],
   "panels": [
     {
@@ -1680,8 +1680,9 @@
       {
         "allValue": ".*",
         "current": {
-          "text": "inception",
-          "value": "inception"
+          "tags": [],
+          "text": "agreement",
+          "value": "agreement"
         },
         "datasource": "$datasource",
         "definition": "label_values(kube_pod_info{cluster=\"$cluster\", namespace=~\"$namespace\"}, pod)",
@@ -1705,7 +1706,7 @@
     ]
   },
   "time": {
-    "from": "now-15m",
+    "from": "now-1h",
     "to": "now"
   },
   "timepicker": {
